@@ -1,0 +1,29 @@
+ @font-face {
+    font-family: Matrix;
+    src: url(../fonts/matrix.ttf);
+  } 
+
+body{
+    background-color:black;
+    color: blanchedalmond;
+}
+#great-vibes{
+    color:#ff4500;
+    font-size: 80px;
+    font-family: 'Great Vibes', cursive; 
+  }
+
+#matrix{
+    color:chartreuse;
+    font-size: 100px;
+    font-family: Matrix;
+}
+#amatic{
+    font-family: 'Amatic SC', cursive; 
+    color: white;
+}
+
+#poiret-one{
+      font-family: 'Poiret One', cursive;
+      color:orchid;
+}
