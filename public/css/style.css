@@ -1,29 +1,40 @@
- @font-face {
-    font-family: Matrix;
-    src: url(../fonts/matrix.ttf);
-  } 
-
-body{
-    background-color:black;
-    color: blanchedalmond;
+@font-face {
+  font-family: Matrix;
+  src: url(../fonts/matrix.ttf);
 }
-#great-vibes{
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+  }
+  
+  .content {
+    position: fixed;
+    top: 0;
+    color: #f1f1f1;
+    width: 100%;
+  }
+  #heading{
+    margin-top: 150px;
+    font-size: 50px;
+  }
+
+  #google{
+    
+    position: absolute;
+    text-align: center;
+   left: 70px;
+    top: 200px;  
+  }
+
+  #big-heading{
     color:#ff4500;
     font-size: 80px;
     font-family: 'Great Vibes', cursive; 
   }
 
-#matrix{
+  #sub-heading{
     color:chartreuse;
     font-size: 100px;
     font-family: Matrix;
-}
-#amatic{
-    font-family: 'Amatic SC', cursive; 
-    color: white;
-}
-
-#poiret-one{
-      font-family: 'Poiret One', cursive;
-      color:orchid;
-}
+  }
