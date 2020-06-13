@@ -1,0 +1,54 @@
+
+
+@font-face {
+    font-family: matrix;
+    src: url(./myfonts/matrix/matrix.ttf);
+  }
+  
+  body{
+      background-color: black;
+      color: white
+  }
+  
+  
+    #portfolio{
+      position: absolute;
+      left: 70px;
+      top: 100px;  
+    }
+    #heading{
+      color:#ff4500;
+      font-size: 80px;
+      font-family: 'Great Vibes', cursive; 
+    }
+    #sub-heading{
+      font-family: 'Amatic SC', cursive;
+      font-size: 20px;
+      padding-bottom: 5px;
+    }
+  
+  
+  #orange {
+      background-color: rgba(0, 0, 0);
+      border: 1px solid orangered;
+  }
+  
+  #green{
+      background-color: rgba(0, 0, 0);
+      border: 1px solid greenyellow;
+      
+  }
+  #pink{
+      background-color: rgba(0, 0, 0);
+      border: 1px solid hotpink;
+       
+  }
+  
+  #pic3, #description3, #links3{
+      background-color: rgba(0, 0, 0);
+      border: 1px solid hotpink;
+  }
+  
+  #row1{
+      margin-top: 20px;
+  }

@@ -12,6 +12,9 @@ app.get("/", function(req, res) {
     res.sendFile(path.join(__dirname,  './public/homepage.html'));
 });
 
+app.get("/portfolio", function(req, res) {
+    res.sendFile(path.join(__dirname,  './public/portfolio.html'));
+});
 
 app.listen(port, function(){
     console.log("Express server listening on  port: " + port);
